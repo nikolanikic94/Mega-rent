@@ -59,3 +59,35 @@ main {
     }
 }
 
+.catalog {
+    text-align: center;
+    margin: 5em auto;
+    width: 75%;
+    background-color: $grey_background;
+    h2 {
+        text-transform: uppercase;
+        font-size: 1.8em;
+    }
+    .cards {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 3em auto;
+        .card {
+            width: 25%;
+            padding: 2em;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.buttons {
+    background-color: $main_red;
+    text-decoration: none;
+    color: #fff;
+    padding: .5em 3em;
+    display: inline-block;
+}
+

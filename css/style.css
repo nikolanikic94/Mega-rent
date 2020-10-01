@@ -58,4 +58,36 @@ main h4 {
   font-weight: 500;
 }
 
+.catalog {
+  text-align: center;
+  margin: 5em auto;
+  width: 75%;
+  background-color: #f0f0f0;
+}
+.catalog h2 {
+  text-transform: uppercase;
+  font-size: 1.8em;
+}
+.catalog .cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3em auto;
+}
+.catalog .cards .card {
+  width: 25%;
+  padding: 2em;
+}
+.catalog .cards .card img {
+  width: 100%;
+}
+
+.buttons {
+  background-color: #ff3720;
+  text-decoration: none;
+  color: #fff;
+  padding: 0.5em 3em;
+  display: inline-block;
+}
+
 /*# sourceMappingURL=style.css.map */

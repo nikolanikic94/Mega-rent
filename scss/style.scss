@@ -1,4 +1,61 @@
 @import 'vars';
 @import 'mixins';
 
-@include main;
+* {
+    @include main(16px);
+}
+
+main {
+    height: 100vh;
+    background-image: url("../slike/background.jpg");
+    background-size: cover;
+    padding: 1em;
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fff;
+        width: 70%;
+        margin: 0 auto;
+        padding: 0.5em;
+        .logo {
+            p {
+                font-size: 2em;
+                font-weight: bold;
+                span {
+                    color: $main_red;
+                    font-size: 1em;
+                }
+            }
+        }
+        ul {
+            text-align: right;
+            li {
+                display: inline-block;
+                margin-left: 1em;
+                a {
+                    text-decoration: none;
+                    &:hover {
+                        color: #000;
+                    }
+                }
+            }
+        }
+    }
+    h1 {
+        text-align: center;
+        color: #fff;
+        border-bottom: 1px solid $main_red;
+        width: 50%;
+        margin: 7em auto 0;
+        font-size: 3em;
+        
+    }
+    h4 {
+        text-align: center;
+        color: #fff;
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+}
+

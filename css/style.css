@@ -1,9 +1,61 @@
-* {
+* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
   color: #797979;
+  font-size: 16px;
+}
+
+main {
+  height: 100vh;
+  background-image: url("../slike/background.jpg");
+  background-size: cover;
+  padding: 1em;
+}
+main nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  width: 70%;
+  margin: 0 auto;
+  padding: 0.5em;
+}
+main nav .logo p {
+  font-size: 2em;
+  font-weight: bold;
+}
+main nav .logo p span {
+  color: #ff3720;
+  font-size: 1em;
+}
+main nav ul {
+  text-align: right;
+}
+main nav ul li {
+  display: inline-block;
+  margin-left: 1em;
+}
+main nav ul li a {
+  text-decoration: none;
+}
+main nav ul li a:hover {
+  color: #000;
+}
+main h1 {
+  text-align: center;
+  color: #fff;
+  border-bottom: 1px solid #ff3720;
+  width: 50%;
+  margin: 7em auto 0;
+  font-size: 3em;
+}
+main h4 {
+  text-align: center;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=style.css.map */

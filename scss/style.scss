@@ -156,3 +156,92 @@ footer {
     }
 }
 
+@media only screen and (max-width: 1400px) {
+    
+    main {
+        nav {
+            width: 90%;
+        }
+        h1 {
+            width: 70%;
+        }
+    }
+    
+    .catalog {
+        width: 80%;
+        .cards {
+            .card {
+                width: 50%;
+            }
+        }
+    }
+
+    footer {
+        .address-map {
+            flex-direction: column;
+            align-items: center;
+            width: 80%;
+            address p {
+                text-align: center;
+            }
+            .mapa {
+                width: 100%;
+                margin-top: 1em;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    main {
+        height: auto;
+        background-image: none;
+        background-color: #000;
+        nav {
+            width: 95%;
+            flex-direction: column;
+            align-items: flex-start;
+            ul {
+                text-align: center;
+                margin: 0 auto;
+                li {
+                    display: block;
+                    padding: .5em;
+                }
+            }
+        }
+        h1 {
+            font-size: 2.7em;
+            width: 90%;
+            margin: 1em auto 0;
+        }
+        h4 {
+            font-size: 1.2em;
+        }
+    }
+    .catalog {
+        width: 90%;
+        .cards {
+            .card {
+                width: 100%;
+            }
+        }
+    }
+
+    .pricing {
+        table {
+            display: none;
+        }
+        .buttons {
+            margin-top: 1em;
+            display: inline-block;
+        }
+    }
+
+    footer {
+        .address-map {
+            width: 90%;
+        }
+    }
+}

@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
   color: #797979;
+  scroll-behavior: smooth;
   font-size: 16px;
 }
 
@@ -81,6 +82,9 @@ main h4 {
 .catalog .cards .card img {
   width: 100%;
 }
+.catalog .cards .card .buttons {
+  margin: 1em 0;
+}
 
 .buttons {
   background-color: #ff3720;
@@ -88,6 +92,68 @@ main h4 {
   color: #fff;
   padding: 0.5em 3em;
   display: inline-block;
+  text-transform: uppercase;
+}
+
+.pricing {
+  margin: 5em 0;
+  text-align: center;
+}
+.pricing h2 {
+  text-transform: uppercase;
+  font-size: 1.8em;
+}
+.pricing table {
+  width: 60%;
+  margin: 3em auto;
+  border-collapse: collapse;
+}
+.pricing table td, .pricing table th {
+  padding: 0.8em;
+}
+.pricing table thead tr th {
+  background-color: #ff3720;
+  color: #fff;
+}
+.pricing table .dark-red-cell {
+  background-color: #e42b15;
+}
+.pricing table tbody tr {
+  border-bottom: 1px solid #797979;
+}
+.pricing table tbody tr th {
+  background-color: #f0f0f0;
+}
+.pricing .buttons {
+  display: none;
+}
+
+footer {
+  background-color: #000;
+  padding: 1em;
+}
+footer .logo {
+  width: 80%;
+  margin: 0 auto;
+  border-bottom: 1px solid #ff3720;
+  font-size: 1.5em;
+}
+footer .logo span {
+  font-size: 1em;
+  color: #ff3720;
+}
+footer .address-map {
+  padding: 1em;
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+footer .address-map address p {
+  color: #fff;
+}
+footer .address-map .mapa {
+  width: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -5,7 +5,8 @@
 		box-sizing: border-box;
 		font-family: $main_font;
 		color: $main_text_color;
-		font-size: $font-size;
+		scroll-behavior: smooth;
+		font-size: $font-size;	
 	}
 }
 
